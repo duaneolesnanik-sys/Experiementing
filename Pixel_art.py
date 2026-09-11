@@ -1,8 +1,6 @@
 from tkinter import Tk, Button, Text, Menu, Label, Entry, Scale
 from tkinter.colorchooser import askcolor
 
-
-
 def begin(size):
     pixart = Tk()
     pixart.title("Pixel Artist")
@@ -27,7 +25,6 @@ def begin(size):
             buttons[i].append(btn)
 
     pixart.mainloop()
-
 
 set_up = Tk()
 set_up.title("Size Selecter")
