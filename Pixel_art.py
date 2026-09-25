@@ -3,6 +3,7 @@ from tkinter.colorchooser import askcolor
 
 
 
+
 def begin(size):
     #Variables
     if True:
