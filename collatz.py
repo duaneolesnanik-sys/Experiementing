@@ -20,16 +20,9 @@ def g(x):
     return rx
 def j(x):
     return (1-math.ceil(abs(x)/abs(x)+1))+x
-def u(x):
-    return (j(x)-1)/4
-def z(x):
-    rx = x
-    for i in range(x):
-        rx = u(rx)
-    return n(rx)
 
 def b(x):
-    return (2*m(x)+1+n((g(x)-1)/8))-z(x)
+    return (2*m(x)+1+n((g(x)-1)/8))
 
 while True:
     x = int(input(": "))
